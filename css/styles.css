@@ -220,7 +220,7 @@ address{
     text-align: center;
 
 }
-.button--primary{
+.button{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     cursor: pointer;
@@ -929,7 +929,7 @@ display: block;
     border: 1px solid var(--accent-color);
 }
 
-.form .button--primary{
+.form .button{
     margin: 30px auto 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

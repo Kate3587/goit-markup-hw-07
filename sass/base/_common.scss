@@ -1,0 +1,16 @@
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.section {
+    padding-top: var(--ordinary-pb);
+    padding-bottom: var(--ordinary-pb);
+    text-align: center;
+}

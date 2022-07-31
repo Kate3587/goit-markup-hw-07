@@ -22,11 +22,12 @@
 
 .contacts__item {
     margin-bottom: 9px;
+        &:last-child {
+            margin-bottom: 0;
+        }
 }
 
-.contacts__item:last-child {
-    margin-bottom: 0;
-}
+
 
 .contacts__map {
     color: var(--primary-white-color);
@@ -34,6 +35,10 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .contacts__link {
@@ -42,15 +47,13 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+        &:hover,
+        &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.contacts__map:hover,
-.contacts__map:focus,
-.contacts__link:hover,
-.contacts__link:focus {
-    color: var(--accent-color);
-}
+
 
 .footer__title {
     font-weight: 700;

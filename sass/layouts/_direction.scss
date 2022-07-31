@@ -9,11 +9,12 @@
 
 .direction__item {
     margin-right: 30px;
+        &:last-child {
+        margin-right: 0;
+        }
 }
 
-.direction__item:last-child {
-    margin-right: 0;
-}
+
 
 .direction__card {
     position: relative;

@@ -1,4 +1,4 @@
-@import './utils/vars';
+@import './utils/variables';
 
 @import './base/reset';
 @import './base/common';
@@ -7,8 +7,9 @@
 @import './components/container';
 @import './components/logo';
 @import './components/button';
+@import './components/social';
 @import './components/subscrible-input';
-@import './components/modal';
+
 @import './components/filter-button';
 @import './components/overlay-portfolio';
 
@@ -16,15 +17,14 @@
 
 @import './layouts/header';
 @import './layouts/hero';
-
 @import './layouts/feauters';
 @import './layouts/direction';
 @import './layouts/team';
-@import './components/social';
 @import './layouts/clients';
-
 @import './layouts/footer';
 @import './layouts/portfolio';
+
+@import './components/modal';
 
 
 

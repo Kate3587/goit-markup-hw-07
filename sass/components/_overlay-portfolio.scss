@@ -11,12 +11,12 @@
     padding: 63px 24px 0px 24px;
 
     background-color: rgba(33, 150, 243, 0.9);
-}
-
-.projects-card:hover .projects-overlay,
-.projects-card:focus .projects-overlay {
-    transform: translateY(0%);
-
+    
+        .projects-card:hover &,
+        .projects-card:focus &{
+            transform: translateY(0%);
+    
+        }
 }
 
 

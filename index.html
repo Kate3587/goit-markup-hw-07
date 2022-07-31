@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 
 
 </head>
@@ -21,7 +21,7 @@
                     <span class="logo--accent">Web</span>Studio
                 </a>
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="./index.html" class="nav__link nav__list--current">Студия</a></li>
+                    <li class="nav__item"><a href="./index.html" class="nav__link nav__link--current">Студия</a></li>
                     <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
                     <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
                 </ul>
@@ -46,9 +46,9 @@
     <main>
         <!--Герой-->
             <section class="hero section">
-                <div class="container">
+                <div class="container hero__container">
                     <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-                    <button class="hero__button button button--primary" data-modal-open type="button">Заказать услугу</button>
+                    <button class="hero__button button" data-modal-open type="button">Заказать услугу</button>
                 </div>   
             </section>
 
@@ -457,9 +457,6 @@
 
                 <button class="button" type="submit">Отправить</button>
             </form>
-
-
-         
     </div>
 
 <script src="./js/modal.js"></script>

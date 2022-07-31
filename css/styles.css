@@ -298,7 +298,7 @@ address{
 }
 
 .card__img,
-.team__foto{
+.people__foto{
 display: block;
 }
 
@@ -330,14 +330,14 @@ display: block;
 
 /* Блок комнады */
 
-.team{
+.people{
     background-color: #F5F4FA;
     padding-top: 94px;
 }
 
 
 .direction__title,
-.team__title,
+.people__title,
 .client__title{
     color: var(--title-text-color);
     margin-bottom: 50px;
@@ -347,23 +347,23 @@ display: block;
     text-align: center;
 }
 
-.team__list{
+.people__list{
     display: flex;
     flex-wrap: wrap;
 }
 
-.team__item{
+.people__item{
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team__item:last-child{
+.people__item:last-child{
     margin-right: 0;
 }
 
-.team__description{
+.people__description{
     background-color: var(--primary-white-color);
     padding: 30px 0;
     border-radius: 0px 0px 4px 4px;

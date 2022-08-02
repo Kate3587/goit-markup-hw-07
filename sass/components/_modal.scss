@@ -103,6 +103,7 @@
 
 .form-input {
     display: inline-block;
+    margin-bottom: 10px;
     position: relative;
     color: var(--title-text-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -125,7 +126,8 @@
 }
 
 .form-input-area {
-    margin-bottom: 10px;
+
+    height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin: 0;
@@ -219,7 +221,7 @@
 .checkbox-label {
     display: flex;
     align-items: center;
-    margin-left: 14px;
+    margin-left: 10px;
 
         &::after {
             content: "";
@@ -234,6 +236,7 @@
 .checkbox-text {
     display: block;
     margin-left: 20px;
+    
 
 }
 
